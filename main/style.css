@@ -1,0 +1,538 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "UKIJ";
+    src: url(../fonts/UKIJChiK.ttf) format('truetype');
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    padding: 30px;
+}
+
+
+/* <-- video --> */
+
+.video-section {
+    position: relative;
+    height: 980px;
+    overflow: hidden;
+}
+
+.video-background {
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    
+}
+
+.video-background video {
+    position: absolute;
+
+}
+
+
+#main-background {
+    background-image: url(resource/blue_wave.png);
+    background-color: rgba(100, 100, 130, 0.3);
+    background-blend-mode: lighten;
+    background-size: auto;
+    background-attachment: fixed;
+}
+
+.sec-title {
+    color: goldenrod;
+    font-size: 4rem;
+    font-family: "UKIJ", sans-serif;
+    text-align: center;
+    padding: 35px 0;
+}
+
+
+
+/* <-- header --> */
+
+
+.contet {
+    position: relative;
+    z-index: 1;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#head-title {
+    margin: 0;
+    padding: 20px;
+    width: 15%;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+}
+
+#head-title a {
+    color: #fff;
+}
+
+#head-list {
+    display: flex;
+    list-style: none;
+}
+
+#head-list li {
+    padding: 20px;
+}
+
+#head-list li a {
+    color: #fff;
+
+}
+
+#head-list a:hover {
+    color: black;
+    border-bottom: solid 1px #fff;
+}
+
+/* <-- header --> */
+
+
+/* <-- worries --> */
+
+
+
+#worries li {
+    list-style: none;
+    /* padding-top: 20px; */
+}
+
+
+#logo {
+    padding-top: 30px;
+    margin-left: 80px;
+}
+
+
+#tenjou {
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 250px;
+    font-size: 2.5rem;
+    color: #000;
+    -webkit-text-stroke: 1px #fff;
+}
+
+#nioi {
+    margin-left: 80px;
+    font-size: 3rem;
+    color: #000;
+    -webkit-text-stroke: 1px #fff;
+}
+
+#okane {
+    text-align: right;
+    padding-right: 85px;
+    font-size: 2.3rem;
+    color: #000;
+    -webkit-text-stroke: 0.8px #fff;
+}
+
+#henni {
+    text-align: center;
+    padding-right: 250px;
+    font-size: 2rem;
+    color: #000;
+    -webkit-text-stroke: 0.5px #fff;
+}
+
+#wakkusu {
+    text-align: right;
+    padding-right: 250px;
+    font-size: 2rem;
+    padding-top: 70px;
+    color: #000;
+    -webkit-text-stroke: 0.5px #fff;
+}
+
+#mizuaka {
+    padding-top: 20px;
+    padding-left: 160px;
+    font-size: 3.3rem;
+    color: #000;
+    -webkit-text-stroke: 1.1px #fff;
+}
+
+#garasu {
+    text-align: right;
+    font-size: 2.4rem;
+    padding-right: 30px;
+    color: #000;
+    -webkit-text-stroke: 0.8px #fff;
+}
+
+#zenkai {
+    font-size: 2.4rem;
+    padding-top: 40px;
+    padding-left: 30px;
+    color: #000;
+    -webkit-text-stroke: 0.8px #fff;
+}
+
+#namisen img{
+    max-width: 100%;
+
+}
+
+/* <-- worries --> */
+
+
+
+/* <-- service --> */
+
+#service {
+    height: 1350px;
+}
+
+.ser-titles {
+    color: goldenrod;
+    font-size: 3rem;
+    font-family: "UKIJ", sans-serif;
+    padding-bottom: 20px;
+}
+
+.ser-texts {
+    margin: 30px;
+    width: 40%;
+    font-size: 1.5rem;
+}
+
+
+#service dl {
+    padding-top: 30px;
+}
+
+#service dl img{
+    width: 200px;
+    height: 200px;
+    margin: 30px 100px;
+}
+
+#service dt {
+    text-align: center;
+}
+
+#service dd {
+    text-align: left;
+}
+
+.service-card {
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+#data1, #data2, #data3 {
+    position: relative;
+    display: flex;
+    text-align: center;
+    border: solid 3px #0083bc;
+    border-radius: 50px;
+    justify-content: space-around;
+    height: 350px;
+}
+
+/* #data2 {
+    display: flex;
+    text-align: center;
+    border: solid 3px #0083bc;
+    border-radius: 50px;
+    justify-content: space-between;
+}
+
+#data3 {
+    display: flex;
+    text-align: center;
+    border: solid 3px #0083bc;
+    border-radius: 50px;
+    justify-content: space-between;
+} */
+
+
+#data1 #img1{
+    /* position: absolute; */
+    background-image: url(resource/window1.png);
+    width: 250px;
+    height: 250px;
+    border: solid 1px #7adedb;
+    border-radius: 50%;
+    background-size: 300px 300px;
+}
+
+#data1 #img2{
+    position: absolute;
+    background-image: url(resource/window2.png);
+    width: 180px;
+    height: 180px;
+    border: solid 1px #7adedb;
+    border-radius: 50%;
+    background-size: 200px 200px;
+    top: 170px;
+    left: 250px;
+}
+#data2 #img3{
+    /* position: absolute; */
+    background-image: url(resource/wall1.png);
+    width: 250px;
+    height: 250px;
+    border: solid 1px #7adedb;
+    border-radius: 50%;
+    background-size: 300px 300px;
+}
+
+#data2 #img4{
+    position: absolute;
+    background-image: url(resource/wall2.png);
+    width: 180px;
+    height: 180px;
+    border: solid 1px #7adedb;
+    border-radius: 50%;
+    background-size: 200px 200px;
+    top: 170px;
+    right: 230px;
+}
+#data3 #img5{
+    /* position: absolute; */
+    background-image: url(resource/floor1.png);
+    width: 180px;
+    height: 180px;
+    border: solid 1px #7adedb;
+    border-radius: 50%;
+    background-size: 200px 200px;
+}
+
+#data3 #img6{
+    position: absolute;
+    background-image: url(resource/floor2.png);
+    width: 250px;
+    height: 250px;
+    border: solid 1px #7adedb;
+    border-radius: 50%;
+    background-size: 300px 300px;
+    top: 80px;
+    left: 230px;
+}
+
+.imgside {
+    padding-top: 30px;
+}
+
+
+/* <-- service --> */
+
+
+/* <-- Construction --> */
+
+#Construction {
+    height: 1000px;
+}
+
+#construction-datas {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 900px;
+}
+
+#construction-datas li {
+    list-style: none;
+}
+
+
+#construction1 {
+    border: solid 3px #0083bc;
+    border-radius: 20px;
+    margin: 10px;
+    height: 800px;
+}
+
+#construction2 {
+
+    border: solid 3px #0083bc;
+    border-radius: 20px;
+    margin: 10px;
+    height: 800px;
+}
+
+#construction3 {
+    border: solid 3px #0083bc;
+    border-radius: 20px;
+    margin: 10px;
+    height: 800px;
+}
+
+#construction4 {
+    border: solid 3px #0083bc;
+    border-radius: 20px;
+    margin: 10px;
+    height: 800px;
+}
+
+#construction5 {
+
+    border: solid 3px #0083bc;
+    border-radius: 20px;
+    margin: 10px;
+    height: 800px;
+}
+
+#construction6 {
+    border: solid 3px #0083bc;
+    border-radius: 20px;
+    margin: 10px;
+    height: 800px;
+}
+
+#construction-datas p {
+    font-size: 1.5rem;
+    padding: 20px;
+}
+
+.img-position {
+    justify-items: center;
+}
+
+#construction-img1 {
+    background-image: url(resource/Construction1.png);
+    width: 350px;
+    height: 250px;
+    border: solid 1px #7adedb;
+    border-radius: 20px;
+    background-size: 400px 250px;
+    margin: 20px;
+}
+
+#construction-img2 {
+    background-image: url(resource/Construction2.png);
+    width: 350px;
+    height: 250px;
+    border: solid 1px #7adedb;
+    border-radius: 20px;
+    background-size: 400px 250px;
+    margin: 20px;
+
+}
+
+#construction-img3 {
+    background-image: url(resource/Construction3.png);
+    width: 350px;
+    height: 250px;
+    border: solid 1px #7adedb;
+    border-radius: 20px;
+    background-size: 400px 250px;
+    margin: 20px;
+
+}
+
+#construction-img4 {
+    background-image: url(resource/Construction1.png);
+    width: 350px;
+    height: 250px;
+    border: solid 1px #7adedb;
+    border-radius: 20px;
+    background-size: 400px 250px;
+    margin: 20px;
+}
+
+#construction-img5 {
+    background-image: url(resource/Construction2.png);
+    width: 350px;
+    height: 250px;
+    border: solid 1px #7adedb;
+    border-radius: 20px;
+    background-size: 400px 250px;
+    margin: 20px;
+
+}
+
+#construction-img6 {
+    background-image: url(resource/Construction3.png);
+    width: 350px;
+    height: 250px;
+    border: solid 1px #7adedb;
+    border-radius: 20px;
+    background-size: 400px 250px;
+    margin: 20px;
+
+}
+
+/* <-- Construction --> */
+
+
+/* <-- Shop --> */
+
+
+#shop {
+    height: 400px;
+}
+
+#shop-inf {
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#shop-logo {
+    font-size: 8rem;
+    padding-left: 30px;
+    color: #fff;
+    -webkit-text-stroke: 0.8px #000;
+}
+
+#shop p {
+    font-size: 1.7rem;
+    padding-left: 60px;
+}
+
+
+
+/* <-- Shop --> */
+
+
+
+/* <-- Contact --> */
+
+#contact {
+    height: 300px;
+}
+
+#otoiawase {
+    text-align: center;
+}
+
+/* <-- Contact --> */
+
+
+/* <-- footer --> */
+
+#footer {
+    background-color: #000;
+    height: 50px;
+}
+
+#footer p {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* <-- footer --> */
